@@ -1,0 +1,75 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+}
+
+.container{
+  width: 1400px;
+  margin: auto;
+}
+
+.Sfondo-Opaco{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 110px;
+  margin-top: 30px;
+}
+
+header{
+  text-align: center;
+}
+
+img{
+  width: 25%;
+}
+
+h1{
+  color: #00DD00;
+  font-weight: 500;
+}
+
+nav{
+  text-align: center;
+  background-color: #00DD00;
+  padding: 15px;
+}
+
+input[type="checkbox"], .Selezione-Monopattino{
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+p{
+  font-weight: 300;
+  line-height: 10px;
+}
+
+.Carica {
+  height: 25px;
+  border-radius: 5px;
+  line-height: 25px;
+}
+
+.Carica-Media{
+  color: #F5B453;
+  background-color: #F5B453;
+  width: 30%;
+}
+
+.Carica-Alta{
+  color: #1EC31E;
+  background-color: #1EC31E;
+  width: 55%;
+}
+
+.Carica-Bassa{
+  color: #BE4141;
+  background-color: #BE4141;
+  width: 12%;
+}
